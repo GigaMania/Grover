@@ -308,7 +308,7 @@ body {
 }
 
 #header-showcase .header-showcase--rightSide {
-  width: 45%;
+  width: 50%;
   float: left;
 }
 
@@ -824,4 +824,74 @@ body {
   .footer-bottom--link:hover {
   color: #f54748;
   transition: all 0.3s;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    max-width: 1100px;
+  }
+
+  #header-main .header-content .header-search input {
+    width: 150px;
+  }
+
+  #header-showcase .header-showcase--leftSide .primary-heading {
+    font-size: 5rem;
+  }
+
+  #header-showcase .header-showcase--leftSide .secondary-subheading {
+    font-size: 1.5rem;
+  }
+
+  #header-showcase .header-showcase--leftSide .showcase-order .order-btn {
+    font-size: 1.5rem;
+    padding: 15px 25px;
+  }
+
+  #header-showcase .header-showcase--leftSide .showcase-order .play-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  #header-showcase .header-showcase--leftSide .showcase-order .process-heading {
+    font-size: 1.5rem;
+  }
+
+  #header-showcase .header-showcase--rightSide .header-showcase--p1 {
+    width: 450px;
+  }
+
+  #choose-info .choose-info--2x .choose-info--leftSide img {
+    width: 550px;
+  }
+
+  #choose-info .choose-info--2x .choose-info--rightSide {
+    width: 350px;
+  }
+
+  #groccerie-app .groccerie-app--2x .groccerie-app--rightSide {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 991px) {
+  #header-main .header-content .header-nav {
+    display: none;
+  }
+
+  #header-main .header-content .header-search {
+    display: none;
+  }
+
+  #header-main .header-content .user-login {
+    display: none;
+  }
+
+  #header-showcase {
+    height: 100%;
+  }
+
+  #header-showcase .header-showcase--rightSide {
+    display: none;
+  }
 }
